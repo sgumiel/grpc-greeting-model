@@ -4,5 +4,5 @@ package com.gumi.grpc.greeting.service;
 import "com/gumi/grpc/greeting/model/model.proto";
 
 service GreetingService {
-  rpc hello(com.gumi.grpc.greeting.model.GreetingRequest) returns (com.gumi.grpc.greeting.model.GreetingResponse);
+  rpc greeting(com.gumi.grpc.greeting.model.GreetingRequest) returns (com.gumi.grpc.greeting.model.GreetingResponse);
 }
