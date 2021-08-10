@@ -1,0 +1,13 @@
+syntax = "proto3";
+option java_multiple_files = true;
+package com.gumi.grpc.greeting.model;
+
+message GreetingRequest {
+  string name = 1;
+  string city = 2;
+}
+
+message GreetingResponse {
+  int64  id = 1;
+  string greeting = 2;
+}
